@@ -1,0 +1,141 @@
+
+/*  ---------      //   Project 2 //     ----------*/
+* { 
+  box-sizing: border-box;
+}
+
+h5 {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+}
+
+p {
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+}
+body {
+    background-color: white;
+    margin: 0 5% 0 5%;
+    padding:0;
+    max-width: 1150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*  ---------      //   mobile //     ----------*/
+
+@media(min-width:320px ) {
+
+body {
+    background-color: white;
+    margin: 0 15% 0 15%;
+    padding:0;
+    max-width: 1150px;
+    margin: 0 auto;
+    text-align: center;
+}
+    header {
+        width: 90%
+        background-color: lightgrey;
+        margin:0 auto;
+    }
+
+ .name {
+        margin: 0 auto;
+        padding: 10px 10px 10px 10px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .top-nav ul{
+        display: block;
+        list-style-type: none;
+        margin: 5px
+        padding: 5px;
+        padding: 5px;
+    }
+
+    .top-nav li {
+        display: block;
+        border-color: red;
+        margin: 0 auto;
+        border: 1px solid #555;
+        padding: 2px;
+        background-color: #dcdcdc;
+        border-radius: 20px;
+    }    
+
+    .first_image {
+  width: 75%;
+  margin: 10% 5%; 
+}
+
+img {
+  max-width: 100%;
+  border-radius: 3%;
+}
+
+  .primary-content {
+    width:90%;
+    margin: 0 auto;
+  }
+
+.columns {
+    margin: 3% 10% 3% 10%;
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+  background: #0399ff;
+}
+
+.contact {
+    background-color: lightgrey;
+}
+
+.footer {  
+    width: 100%;
+    border-top: 2px solid rgba(0, 0, 0, .3);
+    }
+
+.footername {
+    float: left;
+    display:inline-block;
+    width: 33%;
+}
+
+.footer-nav ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 66%;
+}
+
+.footer-nav li {
+        display: inline-block;
+        padding: 2px 14px;
+}
+.col2,
+.col1 {
+    width: 50%;
+}
+  .clearfix:before {
+          content: "";
+          display: table;
+          clear: both;
+    }
+
+}
